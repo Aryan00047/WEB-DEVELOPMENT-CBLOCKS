@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+<title>Assignment 5</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <!--Collapse button-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <!-- Navbar -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PROJECTS</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#">LANGUAGES/SKILLS</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container w-50 mt-3 d-flex mx-auto bg-light p-0">
+        <div class="d-inline-block h-100 w-10">
+          <img style="width: 200px;" src="data:image/png;base64,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" class="img-thumbnail float-left h-100 " alt="...">    
+        </div>
+          <div class="d-inline-block p-3 h-80 w-30">
+                <h1>Hello.</h1>
+                <p>I AM Aryan Gupta <br>I am a Student at Coding Blocks and Chitkara University.</p>
+              <button type="button" class="btn btn-outline-success">View Portfolio</button>
+            </div>
+      </div>
+  
+  
+      <div class="container h-10 w-50 mt-3  mx-auto bg-light p-3">
+       <h3>About Me</h3>
+  
+            <p>
+              Hey! My name is <em>Aryan Gupta</em>. I am a <b>Full Stack Developer</b> and student at Coding Blocks an Chitkara University. I am in 3rd year .Below mentioned are my projects using HTML,CSS,Bootstrap.  
+            </p>
+           
+     </div>
+  <div class="container h-20 w-50 mt-3  mx-auto bg-light p-3" >
+    <h3>Projects</h3>
+    <ul class="list-group">
+      <li class="list-group-item">Snake Game</li>
+      <li class="list-group-item">Tic Tac Toe</li>
+      <li class="list-group-item">Dandrum</li>
+      <li class="list-group-item">Phonebook </li>
+      <li class="list-group-item">Front page Responsive</li>
+    
+    </ul>
+  </div>
+  
+  <div class="container h-20 w-50 mt-3  mx-auto bg-light p-3" >
+    <h3>Languages</h3>
+    <ul class="list-group">
+      <li class="list-group-item">HTML</li>
+      <li class="list-group-item">CSS</li>
+      <li class="list-group-item">JavaScript</li>
+      <li class="list-group-item">Java</li>
+       <li class="list-group-item">C/C++</li>
+       <li class="list-group-item">DBMS</li>
+    </ul>
+  </div>
+  <div class="container h-10 w-50 mt-3  mx-auto bg-light p-3">
+    <h3>Contact Me : </h3>
+    <ul class="list-group">
+    <li class="list-group-item">Email-id:aryan0716.cse19@chitkara.edu.in</li>
+    <li class="list-group-item">Contact no: 8699828447</li>
+    </ul>
+    </div>  
+  
+  </div>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+  </body>
+  </html>
